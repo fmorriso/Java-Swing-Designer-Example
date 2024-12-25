@@ -18,7 +18,8 @@ A example of using the JetBrains IntelliJ Swing _**UI Designer**_.
 
 ## References
 
-*   [Video: How To Use GUI Designer in IntelliJ](https://www.youtube.com/watch?v=whF_Qm1epQ8)
+* [Tutorial: Build UI using Swing](https://www.jetbrains.com/help/idea/design-gui-using-swing.html)  
+* [Video: How To Use GUI Designer in IntelliJ](https://www.youtube.com/watch?v=whF_Qm1epQ8)
 
 ## Developer Notes
 

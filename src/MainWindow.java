@@ -5,6 +5,9 @@ public class MainWindow extends JFrame {
     private String title;
     private Dimension scaledSize;
     private JPanel mainPanel;
+    private JPanel outerGridPanel;
+    private JPanel controlsPanel;
+    private JButton btnNewGame;
 
     private MainWindow() {/* prevent uninitialized instances */}
     public MainWindow(String title) {
@@ -20,5 +23,9 @@ public class MainWindow extends JFrame {
         setContentPane(mainPanel);
 
         setVisible(true);
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }
