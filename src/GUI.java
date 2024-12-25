@@ -13,6 +13,6 @@ public class GUI  implements Runnable {
      */
     @Override
     public void run() {
-        MainWindow mainWindow = new MainWindow(title);
+        new MainWindow(title);
     }
 }

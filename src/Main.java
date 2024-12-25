@@ -10,7 +10,6 @@ public class Main {
 
         GUI gui = new GUI(title);
         SwingUtilities.invokeLater(gui);
-
     }
 
     /** get the java version that is running the current program
