@@ -12,15 +12,13 @@ public class MainWindow extends JFrame {
     private JButton btnNewGame;
     private JButton btnQuit;
 
-    private MainWindow() {/* prevent uninitialized instances */
-
-    }
+    private MainWindow() { /* prevent uninitialized instances */ }
     public MainWindow(String title) {
         this.title = title;
         setTitle(title);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        final int multipleof = 10;
-        this.scaledSize = SwingScreenUtilities.getScaledSize(0.5, multipleof, true);
+        final int multipleOf = 10;
+        this.scaledSize = SwingScreenUtilities.getScaledSize(0.5, multipleOf, true);
         setSize(scaledSize);
         setLocationRelativeTo(null);
 
