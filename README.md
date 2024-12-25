@@ -18,8 +18,7 @@ A example of using the JetBrains IntelliJ Swing _**UI Designer**_.
 
 ## References
 
--   [Sudoku Rules](https://sudoku.com/sudoku-rules/)
--   [Mastering Sudoku for Beginners](https://masteringsudoku.com/sudoku-rules-beginners/)
+*   [Video: How To Use GUI Designer in IntelliJ](https://www.youtube.com/watch?v=whF_Qm1epQ8)
 
 ## Developer Notes
 
