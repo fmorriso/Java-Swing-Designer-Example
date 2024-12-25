@@ -1,6 +1,6 @@
 # Java Swing Designer (IntelliJ) Example
 
-A example of using the JetBrains IntelliJ Swing **UI Designer**.
+A example of using the JetBrains IntelliJ Swing _**UI Designer**_.
 
 ## Tools Used
 
