@@ -24,8 +24,6 @@ public class MainWindow extends JFrame {
         setSize(scaledSize);
         setLocationRelativeTo(null);
 
-        btnQuit.addActionListener((ActionEvent e) -> System.exit(0));
-
         mainPanel.setBackground(Color.GREEN.darker().darker());
         setContentPane(mainPanel);
 
@@ -33,6 +31,12 @@ public class MainWindow extends JFrame {
     }
 
     private void createUIComponents() {
-        // TODO: place custom component creation code here
+        //  place custom component creation code here
+        createQuitButton();
+    }
+
+    private void createQuitButton() {
+        this.btnQuit = new JButton("Quit");
+        this.btnQuit.addActionListener((ActionEvent e) -> System.exit(0));
     }
 }
