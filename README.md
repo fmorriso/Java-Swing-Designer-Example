@@ -1,5 +1,5 @@
-# Java Sudoku
-A simple implementation of the Sudoku game
+# Java Swing Designer (IntelliJ) Example
+A example of using the JetBrains IntelliJ Swing __UI Designer__
 ## Tools Used
 
 | Tool     |  Version |
