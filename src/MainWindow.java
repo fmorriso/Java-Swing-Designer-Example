@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MainWindow extends JFrame {
     private String title;
@@ -8,8 +10,11 @@ public class MainWindow extends JFrame {
     private JPanel outerGridPanel;
     private JPanel controlsPanel;
     private JButton btnNewGame;
+    private JButton btnQuit;
 
-    private MainWindow() {/* prevent uninitialized instances */}
+    private MainWindow() {/* prevent uninitialized instances */
+
+    }
     public MainWindow(String title) {
         this.title = title;
         setTitle(title);
@@ -18,6 +23,8 @@ public class MainWindow extends JFrame {
         this.scaledSize = SwingScreenUtilities.getScaledSize(0.5, multipleof, true);
         setSize(scaledSize);
         setLocationRelativeTo(null);
+
+        btnQuit.addActionListener((ActionEvent e) -> System.exit(0));
 
         mainPanel.setBackground(Color.GREEN.darker().darker());
         setContentPane(mainPanel);
